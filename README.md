@@ -78,26 +78,28 @@ $$
 
 ## 其他约束
 
-- **速度限制**
+- 速度限制
 
-  $$
-  v_{min} \le v \le v_{max}
-  $$
+$$
+v_{min} \le v \le v_{max}
+$$
 
-- **前轮转角限制**
+- 前轮转角限制
 
-  $$
-  -\phi_{max} \le \phi \le \phi_{max}
-  $$
+$$
+\begin{aligned}
+-\phi_{max} \le \phi \le \phi_{max}
+\end{aligned}
+$$
 
-- **容许控制**
+- 容许控制
 
-  $$
-  \begin{aligned}
-  a_{min} &\le a \le a_{max}, \\
-  -\omega_{max} &\le \omega \le \omega_{max}.
-  \end{aligned}
-  $$
+$$
+\begin{aligned}
+a_{min} &\le a \le a_{max}, \\
+-\omega_{max} &\le \omega \le \omega_{max}.
+\end{aligned}
+$$
 
 ## 目标函数
 
